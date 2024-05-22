@@ -1,6 +1,6 @@
 import { type ReactElement } from 'react';
+import luis from './assets/images/luis.JPG';
 import './App.css';
-import dogfella from './assets/images/dogfella.JPG';
 import rubyOnRails from './assets/images/ruby_on_rails.png'
 import react from './assets/images/react.png'
 import { Box, Container, Grid, Typography, Divider, Link, List, ListItem, ListItemText } from '@mui/material';
@@ -19,17 +19,14 @@ const Main = (): ReactElement => {
           <Grid container spacing={0} sx={{ margin: '1rem 0' }}>
             <Grid item xs={12} md={6} sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', pr: { xs: 0, md: 2 } }}>
               <Typography variant="h1">
-                This is Miguel, a.k.a Urbi
+                This is Luis Azcuaga
               </Typography>
               <Typography variant="body1">
-                Proficient software engineer with over 5 years of experience, specializing in Ruby on Rails and React web applications. Passionate about collaborating with talented professionals and actively contributing to the tech community.
-              </Typography>
-              <Typography variant="body1" sx={{ mt: 1 }}>
-                I really enjoy building solutions with software, playing tennis, videogames and taking a deep breath in the middle of the woods
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
               </Typography>
               <Box sx={{ my: 2 }}>
                 <IconButton
-                  href="https://github.com/itsmeurbi"
+                  href="https://github.com/luisAzcuaga"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="external link"
@@ -38,7 +35,7 @@ const Main = (): ReactElement => {
                   <GitHubIcon fontSize="large"/>
                 </IconButton>
                 <IconButton
-                  href="https://www.linkedin.com/in/itsmeurbi/"
+                  href="https://www.linkedin.com/in/luis-azcuaga/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="external link"
@@ -50,7 +47,7 @@ const Main = (): ReactElement => {
             </Grid>
             <Grid item xs={12} md={6} p={0} sx={{ pl: { xs: 0, md: 2 } }}>
               <Box sx={{ borderRadius: '.5rem', overflow: 'hidden' }}>
-                <img src={dogfella} alt="logo" width="100%" />
+                <img src={luis} alt="logo" width="100%" />
               </Box>
             </Grid>
           </Grid>

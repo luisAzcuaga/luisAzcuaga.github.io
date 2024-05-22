@@ -1,8 +1,14 @@
 :root {
-  --primary: #56524a;
-  --secondary: #bcbaa4;
+  --primary: #505071;
+  --secondary: rgb(0, 54, 99);
   --light: #cccab5;
-  --background: #d5d6bc;
+  /* eigengrau hex  */
+  --background: #16161d;
   --black: #0f0e0c;
   --grey: #282626;
+}
+
+h1,
+p {
+  color: var(--primary);
 }

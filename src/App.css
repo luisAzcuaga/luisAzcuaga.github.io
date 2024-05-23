@@ -1,6 +1,6 @@
 :root {
   --primary: #505071;
-  --secondary: rgb(0, 54, 99);
+  --secondary: #003663;
   --light: #cccab5;
   /* eigengrau hex  */
   --background: #16161d;
@@ -11,4 +11,8 @@
 h1,
 p {
   color: var(--primary);
+}
+
+*::selection {
+  background-color: olive;
 }

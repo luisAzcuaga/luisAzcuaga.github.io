@@ -5,6 +5,8 @@ import { Box, Container, Grid, Typography } from '@mui/material';
 import { IconButton } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import PetsIcon from '@mui/icons-material/Pets';
+import SelfImprovementIcon from '@mui/icons-material/SelfImprovement';
 
 const Main = (): ReactElement => {
   return (
@@ -16,7 +18,7 @@ const Main = (): ReactElement => {
               This is Luis Azcuaga
             </Typography>
             <Typography variant="body1">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Hello! I'm a developer with experience in Ruby on Rails and other web technologies. I started my programming journey in 2018, and since then, I've worked on various personal and professional projects. I'm passionate about writing clean, scalable, and efficient code.
             </Typography>
             <Box>
               <IconButton
@@ -36,6 +38,24 @@ const Main = (): ReactElement => {
                 size="large"
               >
                 <LinkedInIcon fontSize="large" sx={{ color: 'var(--primary)' }} />
+              </IconButton>
+              <IconButton
+                href="https://sortfella.azkawa.dev"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="external link"
+                size="large"
+              >
+                <PetsIcon fontSize="large" sx={{ color: 'var(--primary)' }} />
+              </IconButton>
+              <IconButton
+                href="https://mind.azkawa.dev"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="external link"
+                size="large"
+              >
+                <SelfImprovementIcon fontSize="large" sx={{ color: 'var(--primary)' }} />
               </IconButton>
             </Box>
           </Grid>

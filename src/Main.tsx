@@ -1,5 +1,5 @@
 import { type ReactElement } from 'react';
-import luis from './assets/images/luis.JPG';
+import luis from './assets/images/luis.jpg';
 import './App.css';
 import { Box, Container, Grid, Typography } from '@mui/material';
 import { IconButton } from '@mui/material';
@@ -17,8 +17,9 @@ const Main = (): ReactElement => {
             <Typography variant="h1">
               This is Luis Azcuaga
             </Typography>
-            <Typography variant="body1">
-            Hello! I'm a developer with experience in Ruby on Rails and other web technologies. I started my programming journey in 2018, and since then, I've worked on various personal and professional projects. I'm passionate about writing clean, scalable, and efficient code.
+            <Typography variant="body1" style={{ textAlign: 'justify' }}>
+            <p>Hello! I'm a software engineer with experience in Ruby on Rails and other web technologies. </p>
+            <p>I started my programming journey in 2018, and since then, I've worked on various personal and professional projects. I'm passionate about writing clean, scalable, and efficient code.</p>
             </Typography>
             <Box>
               <IconButton
@@ -60,7 +61,7 @@ const Main = (): ReactElement => {
             </Box>
           </Grid>
           <Grid item xs={12} md={6}>
-            <img src={luis} alt="logo" width="100%" />
+            <img src={luis} alt="logo" width="100%" style={{borderRadius: '5px'}} />
           </Grid>
         </Grid>
       </Container>

@@ -3,7 +3,7 @@ name: GitHub Pages Deploy
 on:
   push:
     branches:
-      - main
+      - ft/luis-azcuaga
 
 jobs:
   deploy:
@@ -37,7 +37,7 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/ft/luis-azcuaga'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build

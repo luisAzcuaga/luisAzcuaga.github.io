@@ -63,12 +63,11 @@ html {
 #anchors-section a p.tooltip {
   display: none;
   position: absolute;
-  padding: 5px 10px;
+  padding: 4px 8px;
   background-color: #16161d;
   border: 1px solid #505071;
   width: fit-content;
-  border-radius: 3px;
-  font-size: 1rem;
+  font-size: 0.7rem;
   font-weight: 400;
   line-height: 1.5;
   text-align: justify;

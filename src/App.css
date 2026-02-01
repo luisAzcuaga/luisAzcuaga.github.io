@@ -13,21 +13,6 @@ html {
   background-color: olive;
 }
 
-#anchors-section a {
-  color: #505071;
-  font-size: 2rem;
-  transition: 0.2s all;
-}
-
-a:hover {
-  scale: 120%;
-}
-
-a:visited {
-  color: #505071;
-}
-
-
 #main-wrapper {
   display: flex;
   margin-top: 30px;
@@ -40,19 +25,13 @@ a:visited {
   padding-right: 50px;
 }
 
-#right-section img{
-  width: 100%;
-  border-radius: 10px;
-}
-
-
-h1.title {
+#left-section h1.title {
   font-size: 6rem;
   font-weight: 300;
   margin: 10px;
 }
 
-p {
+#left-section #text-section p {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -66,22 +45,65 @@ p {
   margin-top: 30px;
 }
 
+#anchors-section a {
+  color: #505071;
+  font-size: 2rem;
+  transition: 0.2s all;
+  position: relative;
+}
+
+#anchors-section a:hover {
+  scale: 120%;
+}
+
+#anchors-section a:visited {
+  color: #505071;
+}
+
+#anchors-section a p.tooltip {
+  display: none;
+  position: absolute;
+  padding: 5px 10px;
+  background-color: #16161d;
+  border: 1px solid #505071;
+  width: fit-content;
+  border-radius: 3px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+#anchors-section a p.wide {
+  width: 200px;
+}
+
+#anchors-section a:hover p {
+  display: block;
+}
+
+
+#right-section img {
+  width: 100%;
+  border-radius: 10px;
+}
+
 @media (max-width: 1024px) {
   #main-wrapper {
     flex-direction: column;
-    padding:5px;
-  }
-
-  #main-wrapper #left-section #text-section article h1.title {
-    font-size: 4rem;
-    margin: auto 0;
+    padding: 5px;
   }
 
   #left-section {
     padding: 0;
   }
 
+  #left-section h1.title {
+    font-size: 4rem;
+    margin: auto 0;
+  }
+
   #right-section {
-    margin: 50pm auto 30px;
+    margin: 30px auto;
   }
 }

@@ -13,27 +13,44 @@
         </article>
       </section>
       <section id="anchors-section">
-        <a href="https://github.com/luisAzcuaga">
+        <a href="https://github.com/luisAzcuaga" target="_blank">
           <font-awesome-icon icon="fa-brands fa-github-alt" />
+          <p class="tooltip">github</p>
         </a>
-        <a href="https://www.linkedin.com/in/luis-azcuaga">
+        <a href="https://www.linkedin.com/in/luis-azcuaga" target="_blank">
           <font-awesome-icon icon="fa-brands fa-linkedin" />
+          <p class="tooltip">linkedIn</p>
         </a>
-        <a href="https://sortfella.azkawa.dev">
+        <a href="https://sortfella.azkawa.dev" target="_blank">
           <font-awesome-icon icon="fa-solid fa-music" />
+          <p class="tooltip wide">Sortfella:
+            <small>
+              Sort your playlists easily.
+            </small>
+          </p>
         </a>
-        <a href="https://mind.azkawa.dev">
+        <a href="https://mind.azkawa.dev" target="_blank">
           <font-awesome-icon icon="fa-solid fa-water" />
+          <p class="tooltip wide">Mindfulness Assistant:
+            <small>
+              Vanilla HTML Breathing assistant
+            </small>
+          </p>
         </a>
-        <a href="https://turnips.azkawa.dev">
+        <a href="https://turnips.azkawa.dev" target="_blank">
           <font-awesome-icon icon="fa-solid fa-leaf" />
+          <p class="tooltip wide">Turnips Calculator:
+            <small>
+              Predict turnips value for 'Animal Crossing: New Horizons'
+            </small>
+          </p>
         </a>
       </section>
 
     </div>
-    <section id="right-section">
-      <img src="./luis.jpg" alt="logo"/>
-    </section>
+    <div id="right-section">
+      <img src="./luis.jpg" alt="logo" />
+    </div>
 
   </div>
 </template>

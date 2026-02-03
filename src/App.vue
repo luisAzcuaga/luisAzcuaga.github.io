@@ -21,6 +21,7 @@
           <font-awesome-icon icon="fa-brands fa-linkedin" />
           <p class="tooltip">linkedIn</p>
         </a>
+        <p class="noselect">&nbsp;|&nbsp;</p>
         <a href="https://sortfella.azkawa.dev" target="_blank">
           <font-awesome-icon icon="fa-solid fa-music" />
           <p class="tooltip wide">Sortfella:
